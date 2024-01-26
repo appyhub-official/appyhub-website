@@ -1,0 +1,30 @@
+div.container {
+    background-color: #29271F;
+    transition: all 0.25s linear;
+}
+
+div.container:hover {
+    background-color: #3a372c;
+    transform: scale(1.01);
+}
+
+div.imageWrapper {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+}
+
+img.image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    pointer-events: none;
+}
+
+div.textWrapper {
+    padding: 1rem;
+}
+
+p.description {
+    margin-top: 1rem;
+    color: #aeaeae;
+}

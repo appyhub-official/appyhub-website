@@ -1,0 +1,31 @@
+div.container {
+    /* The image used */
+    background-image: url('/parallax.jpg');
+
+    /* Set a specific height */
+    min-height: 250px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale(100%);
+
+    padding: 2rem calc(16px + (64 - 16) * ((100vw - 320px) / (1440 - 320))) 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+div.textWrapper {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+h2.heading {
+    text-transform: uppercase;
+}
+
+h4.subheading {
+    text-transform: capitalize;
+}

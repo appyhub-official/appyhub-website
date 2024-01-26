@@ -1,0 +1,46 @@
+div.box {
+    box-shadow: 0 0 5px #AEAEAE;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    text-align: justify;
+    padding: 1rem;
+    transition: all 0.25s linear;
+}
+
+div.box:hover {
+    transform: scale(1.01);
+}
+
+svg.icon {
+    width: 2.5rem;
+    height: 2.5rem;
+    stroke-dasharray: 133;
+    pointer-events: none;
+}
+
+svg.icon [id*=border] {
+    animation: animation 6s linear infinite;
+}
+
+p.text {
+    margin-top: 1rem;
+}
+
+@keyframes animation {
+    0% {
+        stroke-dashoffset: 133;
+    }
+
+    25% {
+        stroke-dashoffset: 0;
+    }
+
+    75% {
+        stroke-dashoffset: 0;
+    }
+
+    100% {
+        stroke-dashoffset: 133;
+    }
+}

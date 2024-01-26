@@ -1,0 +1,84 @@
+path.Vector1 {
+    stroke-dasharray: 400;
+    animation: Vector1 6s linear infinite;
+}
+
+path.Vector2 {
+    stroke-dasharray: 400;
+    animation: Vector2 6s linear infinite;
+}
+
+path.Vector3 {
+    stroke-dasharray: 250;
+    animation: Vector3 6s linear infinite;
+}
+
+@keyframes Vector1 {
+    0% {
+        stroke-dashoffset: 400;
+    }
+
+    12.5% {
+        stroke-dashoffset: 0;
+    }
+
+    87.5% {
+        stroke-dashoffset: 0; 
+    }
+
+    100% {
+        stroke-dashoffset: 400; 
+    }
+}
+
+@keyframes Vector2 {
+    0% {
+        stroke-dashoffset: 400;
+    }
+
+    12.5% {
+        stroke-dashoffset: 400;
+    }
+
+    25% {
+        stroke-dashoffset: 0;
+    }
+
+    75% {
+        stroke-dashoffset: 0;
+    }
+
+    87.5% {
+        stroke-dashoffset: 400;
+    }
+
+    100% {
+        stroke-dashoffset: 400;
+    }
+}
+
+@keyframes Vector3 {
+    0% {
+        stroke-dashoffset: 250;
+    }
+
+    25% {
+        stroke-dashoffset: 250;
+    }
+
+    37.5% {
+        stroke-dashoffset: 0;
+    }
+
+    62.5% {
+        stroke-dashoffset: 0;
+    }
+
+    75% {
+        stroke-dashoffset: 250;
+    }
+
+    100% {
+        stroke-dashoffset: 250;
+    }
+}

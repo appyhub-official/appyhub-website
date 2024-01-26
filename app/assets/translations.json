@@ -1,0 +1,84 @@
+{
+    "pl": {
+        "offer": "oferta",
+        "technologies": "technologie",
+        "contact": "kontakt",
+        "heroSection": {
+            "heading1": "Tworzymy ",
+            "heading2": ["aplikacje", "strony", "programy"],
+            "heading3": "wspierające ",
+            "heading4": "Twój biznes",
+            "subheading": "Nasza praca dla Twojego biznesu."
+        },
+        "offerSection": {
+            "ourOffer": "Nasza oferta",
+            "whatWeDo": "Czym się zajmujemy?",
+            "boxes": [{
+                    "image": "websites.jpg",
+                    "heading": "Strony internetowe",
+                    "desc": "Tworzymy nowoczesne strony internetowe będące wizytówką dla Klienta.",
+                    "priority": 1,
+                    "both": false,
+                    "left": false
+                }, {
+                    "image": "apps.jpg",
+                    "heading": "Aplikacje webowe",
+                    "desc": "Dostarczamy zaawansowane aplikacje wspierające biznes Klienta.",
+                    "priority": 2,
+                    "both": false,
+                    "left": true
+                }, {
+                    "image": "graphics.jpg",
+                    "heading": "Identyfikacja wizualna",
+                    "desc": "Projektujemy logotypy oraz inne materiały graficzne.",
+                    "priority": 2,
+                    "both": false,
+                    "left": false
+                }, {
+                    "image": "support.jpg",
+                    "heading": "Wsparcie",
+                    "desc": "Oferujemy opiekę serwisową, aby Twoja strona była aktualna i bezpieczna.",
+                    "priority": 1,
+                    "both": true,
+                    "left": true
+                }, {
+                    "image": "outsourcing.jpg",
+                    "heading": "Outsourcing",
+                    "desc": "Wdrożymy konieczne aktualizacje oraz zmiany do istniejących i działających projektów.",
+                    "priority": 3,
+                    "both": false,
+                    "left": false
+                }
+            ],
+            "contactUs": "napisz do nas"
+        },
+        "technologiesSection": {
+            "technologies": "technologie",
+            "whatWeUse": "Co wykorzystujemy?",
+            "subheading": "Używamy najnowszych technologii do budowania stron oraz aplikacji internetowych.",
+            "boxes": [{
+                "text": "Przykładamy szczególną uwagę, aby wykonane przez nas strony internetowe reprezentowały najwyższą jakość wykonania i największą skuteczność w dotarciu do potencjalnych odbiorców."
+            }, {
+                "text": "Dobieramy technologie na podstawie wymagań klienta, w zależności od tego, jaki serwis chciałby stworzyć klient."
+            }, {
+                "text": "Dbamy o to, aby aplikacje oferowały jak najlepszą wydajność, a także, aby były przystosowane do każdego urządzenia z dostępem do sieci internetowej."
+            }]
+        },
+        "professionalismAnd": "profesjonalizm &",
+        "involvement": "zaangażowanie",
+        "contactSection": {
+            "heading": "Po prostu przywitaj się! 👋",
+            "subheading": "Z przyjemnością odpowiemy na Twoje pytania.",
+            "location": "Kraków, Polska",
+            "mail": "hello@appyhub.pl",
+            "send": "Kliknij i napisz maila!"
+        },
+        "privacyPolicy": "Polityka Prywatności",
+        "copyright": "Copyright © 2024 - ",
+        "website": "appyhub.pl",
+        "rights": "All rights reserved."
+    },
+    "en": {
+
+    }
+}

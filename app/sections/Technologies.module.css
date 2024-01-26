@@ -1,0 +1,40 @@
+div.container {
+    display: flex;
+    flex-direction: column;
+    padding: 3rem calc(16px + (64 - 16) * ((100vw - 320px) / (1440 - 320)));
+}
+
+h4.subheading {
+    text-transform: capitalize;
+}
+
+p.text {
+    margin: 2rem 0 4rem;
+}
+
+div.boxes {
+    display: grid;
+    margin-top: 4rem;
+    gap: 2rem;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+@media only screen and (max-width: 1280px) {
+    div.boxes {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    div.boxes > div:last-child {
+        translate: 50% 0;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    div.boxes {
+        grid-template-columns: 1fr;
+    }
+
+    div.boxes > div:last-child {
+        translate: 0 0;
+    }
+}
