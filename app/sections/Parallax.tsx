@@ -6,10 +6,12 @@ const {
     involvement
  } = Translations['pl'];
 
+ const isProd = process.env.NODE_ENV === 'production';
+
 export default function Parallax () {
     return <div
         className={styles.container}
-        style={{ backgroundImage: `url('/parallax.jpg')` }}
+        style={{ backgroundImage: `url('${isProd ? '/appyhub-website/' : '/'}parallax.jpg')` }}
     >
         <div className={styles.textWrapper}>
             <h4 className={styles.subheading}>{professionalismAnd}</h4>
