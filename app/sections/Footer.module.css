@@ -24,8 +24,11 @@ div.logoWrapper svg {
     transition: all 0.25s linear;
 }
 
-div.logoWrapper:hover svg, div.iconWrapper:hover svg {
-    transform: scale(1.05);
+div.logoWrapper:hover svg {
+    width: 5.25rem;
+    height: 5.25rem;
+    margin-top: -0.125rem;
+    margin-left: -0.125rem;
 }
 
 ul.menu {
@@ -54,6 +57,12 @@ div.iconWrapper svg {
     width: 2.5rem;
     height: 2.5rem;
     transition: all 0.25s linear;
+}
+
+div.iconWrapper:hover svg {
+    width: 2.625rem;
+    height: 2.625rem;
+    margin-left: -0,0625rem;
 }
 
 div.textWrapper {

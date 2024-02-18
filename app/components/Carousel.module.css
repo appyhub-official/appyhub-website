@@ -33,7 +33,7 @@ div.carousel {
     pointer-events: none;
 }
 
-div.carousel > img {
+div.carousel > svg {
     height: 5rem;
     width: 5rem;
     margin: 0 2vw;

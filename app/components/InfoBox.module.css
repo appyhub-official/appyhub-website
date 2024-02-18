@@ -9,7 +9,7 @@ div.box {
 }
 
 div.box:hover {
-    transform: scale(1.01);
+    transform: scale(1.05);
 }
 
 svg.icon {
@@ -25,6 +25,7 @@ svg.icon [id*=border] {
 
 p.text {
     margin-top: 1rem;
+    transition: all 0.25s linear;
 }
 
 @keyframes animation {

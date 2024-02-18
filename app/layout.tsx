@@ -1,9 +1,11 @@
 import type { Metadata, Viewport } from 'next';
-import Head from 'next/head';
-import { Inter } from 'next/font/google'
+import { Montserrat } from 'next/font/google';
 import './globals.css'
 
-const inter = Inter({ subsets: ['latin'] })
+const font = Montserrat({ 
+    weight: '300',
+    subsets: ['latin']
+});
 
 export const viewport: Viewport = {
     width: 'device-width',
@@ -27,7 +29,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang='pl'>
-      <body>
+      <body className={font.className}>
         {children}
       </body>
     </html>

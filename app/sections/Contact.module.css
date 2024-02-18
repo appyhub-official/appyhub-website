@@ -15,11 +15,30 @@ div.infosWrapper {
 }
 
 div.info {
-    width: 100%;
-    height: 100%;
     align-items: center;
     justify-content: center;
     text-align: center;
+}
+
+div.info p {
+    transition: all 0.25s linear;
+    line-height: 1.05rem;
+}
+
+div.info:hover p {
+    font-size: 1.05rem;
+}
+
+div.info > svg {
+    transition: all 0.25s linear;
+    width: 2rem;
+    height: 2rem;
+}
+
+div.info:hover > svg {
+    width: 2.1rem;
+    height: 2.1rem;
+    margin-top: -0.1rem;
 }
 
 a.send {
@@ -33,17 +52,23 @@ a.send {
     transition: all 0.25s linear;
     cursor: pointer;
     text-decoration: none;
+    line-height: 1.05rem;
 }
 
 a.send:hover {
     background-color: #1a1a1a;
-    transform: scale(1.05);
+    font-size: 1.05rem;
 }
 
 a.send > svg {
     margin-left: 1rem;
     width: 1rem;
     height: 1rem;
+}
+
+a.send:hover > svg{
+    width: 1.05rem;
+    height: 1.05rem;
 }
 
 @media only screen and (max-width: 768px) {

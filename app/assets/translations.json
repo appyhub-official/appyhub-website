@@ -14,35 +14,35 @@
             "ourOffer": "Nasza oferta",
             "whatWeDo": "Czym się zajmujemy?",
             "boxes": [{
-                    "image": "websites.jpg",
+                    "image": "appyhub-website/websites",
                     "heading": "Strony internetowe",
                     "desc": "Tworzymy nowoczesne strony internetowe będące wizytówką dla Klienta.",
                     "priority": 1,
                     "both": false,
                     "left": false
                 }, {
-                    "image": "apps.jpg",
+                    "image": "appyhub-website/apps",
                     "heading": "Aplikacje webowe",
                     "desc": "Dostarczamy zaawansowane aplikacje wspierające biznes Klienta.",
                     "priority": 2,
                     "both": false,
                     "left": true
                 }, {
-                    "image": "graphics.jpg",
+                    "image": "appyhub-website/graphics.jpg",
                     "heading": "Identyfikacja wizualna",
                     "desc": "Projektujemy logotypy oraz inne materiały graficzne.",
                     "priority": 2,
                     "both": false,
                     "left": false
                 }, {
-                    "image": "support.jpg",
+                    "image": "appyhub-website/support.jpg",
                     "heading": "Wsparcie",
                     "desc": "Oferujemy opiekę serwisową, aby Twoja strona była aktualna i bezpieczna.",
                     "priority": 1,
                     "both": true,
                     "left": true
                 }, {
-                    "image": "outsourcing.jpg",
+                    "image": "appyhub-website/outsourcing.jpg",
                     "heading": "Outsourcing",
                     "desc": "Wdrożymy konieczne aktualizacje oraz zmiany do istniejących i działających projektów.",
                     "priority": 3,
