@@ -1,7 +1,4 @@
 div.container {
-    /* The image used */
-    background-image: url('/parallax.jpg');
-
     /* Set a specific height */
     min-height: 250px;
 
