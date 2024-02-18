@@ -27,11 +27,10 @@ export default function RootLayout({
 }: {
   children: React.ReactNode
 }) {
-    const isProd = process.env.NODE_ENV === 'production';
     return (
         <html lang='pl'>
         <body className={font.className}>
-            <link rel="icon" href={`${isProd ? 'appyhub-website/' : '/'}favicon.ico`} />
+            <link rel="icon" href={`/favicon.ico`} />
             {children}
         </body>
         </html>
