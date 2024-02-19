@@ -1,8 +1,5 @@
-const isProd = process.env.NODE_ENV === 'production';
-
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    assetPrefix: isProd ? '/appyhub-website/' : '',
     output: 'export',
     images: {
         loader: 'custom',
