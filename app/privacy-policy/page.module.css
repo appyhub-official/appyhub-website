@@ -1,0 +1,40 @@
+div.container {
+    padding: 1rem calc(16px + (64 - 16) * ((100vw - 320px) / (1440 - 320))) 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+}
+
+a.logo svg {
+    width: 10rem;
+    height: 10rem;
+    transition: all 0.25s linear;
+}
+
+a.logo svg:hover {
+    transform: scale(1.05);
+}
+
+h2.pageTitle {
+    width: 100%;
+}
+
+h4.sectionTitle {
+    margin: 1rem 0 0.5rem;
+    font-weight: 600;
+}
+
+div.companyDetails {
+    margin-top: 0.5rem;
+}
+
+div.paragraph {
+    width: 100%;
+    margin-top: 1rem;
+}
+
+ul.list {
+    margin-left: 2rem;
+}
+

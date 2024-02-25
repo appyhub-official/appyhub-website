@@ -1,6 +1,8 @@
 import type { Metadata, Viewport } from 'next';
 import { Montserrat } from 'next/font/google';
 import './globals.css'
+import Footer from './sections/Footer';
+import CookiesPopup from './components/CookiesPopup';
 
 const font = Montserrat({ 
     weight: '300',
@@ -30,7 +32,9 @@ export default function RootLayout({
     return (
         <html lang='pl'>
         <body className={font.className}>
+            <CookiesPopup />
             {children}
+            <Footer />
         </body>
         </html>
     )

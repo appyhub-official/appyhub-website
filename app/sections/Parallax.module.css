@@ -9,7 +9,7 @@ div.container {
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+
     filter: grayscale(100%);
 
     padding: 2rem calc(16px + (64 - 16) * ((100vw - 320px) / (1440 - 320))) 2rem;
@@ -28,4 +28,17 @@ h2.heading {
 
 h4.subheading {
     text-transform: capitalize;
+}
+
+@supports (-webkit-touch-callout : none) {
+    div.container {
+        background-position: left;
+        background-attachment: scroll;
+    }
+}
+
+@supports not (-webkit-touch-callout : none) {
+    div.container {
+        background-size: cover;
+    }
 }

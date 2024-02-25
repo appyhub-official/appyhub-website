@@ -33,7 +33,7 @@ export default function Contact () {
             <div></div>
         </div>
 
-        <Link href='mailto:hello@appyhub.pl' className={styles.send}>
+        <a href='mailto:hello@appyhub.pl' className={styles.send}>
             {send}
             <svg width="28" height="30" viewBox="0 0 28 30" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g clipPath="url(#clip0_6_176)">
@@ -45,6 +45,6 @@ export default function Contact () {
                     </clipPath>
                 </defs>
             </svg>
-        </Link>
+        </a>
     </div>
 }

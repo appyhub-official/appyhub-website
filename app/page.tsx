@@ -13,7 +13,6 @@ export default function Home() {
         <Technologies />
         <Parallax />
         <Contact />
-        <Footer />
     </>
   )
 }
